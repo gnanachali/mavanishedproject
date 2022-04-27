@@ -1,0 +1,57 @@
+gnachali@WKWZTasvWwL2byw MINGW64 /c/AssesmentMavenProject
+$ git init
+Initialized empty Git repository in C:/AssesmentMavenProject/.git/
+
+gnachali@WKWZTasvWwL2byw MINGW64 /c/AssesmentMavenProject (master)
+$ git add .
+
+gnachali@WKWZTasvWwL2byw MINGW64 /c/AssesmentMavenProject (master)
+$ git commit -m "first commit"
+[master (root-commit) deb21e4] first commit
+ Committer: gnanasagar Chalicheemala <gnachali@publicisgroupe.net>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 16 files changed, 326 insertions(+)
+ create mode 100644 mavensample/.classpath
+ create mode 100644 mavensample/.project
+ create mode 100644 mavensample/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 mavensample/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 mavensample/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 mavensample/pom.xml
+ create mode 100644 mavensample/src/main/java/com/sapient/endur/ui/Hello.java
+ create mode 100644 mavensample/src/main/java/com/sapient/mavensample/App.java
+ create mode 100644 mavensample/src/site/site.xml
+ create mode 100644 mavensample/src/test/java/com/sapient/mavensample/AppTest.java
+ create mode 100644 mavensample/target/classes/META-INF/MANIFEST.MF
+ create mode 100644 mavensample/target/classes/META-INF/maven/com.sapient/mavensample/pom.properties
+ create mode 100644 mavensample/target/classes/META-INF/maven/com.sapient/mavensample/pom.xml
+ create mode 100644 mavensample/target/classes/com/sapient/endur/ui/Hello.class
+ create mode 100644 mavensample/target/classes/com/sapient/mavensample/App.class
+ create mode 100644 mavensample/target/test-classes/com/sapient/mavensample/AppTest.class
+
+gnachali@WKWZTasvWwL2byw MINGW64 /c/AssesmentMavenProject (master)
+$ git remote add origin https://github.com/gnanachali/simplemaven.git
+
+gnachali@WKWZTasvWwL2byw MINGW64 /c/AssesmentMavenProject (master)
+$ git push -u origin master
+Enumerating objects: 48, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (48/48), 5.74 KiB | 839.00 KiB/s, done.
+Total 48 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gnanachali/simplemaven.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+gnachali@WKWZTasvWwL2byw MINGW64 /c/AssesmentMavenProject (master)
+$
